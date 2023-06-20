@@ -1,0 +1,7 @@
+cd %mosquitto_dir%
+start moss
+start mosquitto_sub -h 127.0.0.1 -t /mytopic
+mosquitto_pub -h 127.0.0.1 -t /mytopic -m "Thao"
+sudo pip install paho-mqtt
+cd /home/debian/LabCode/M1-L7/
+ls -l
